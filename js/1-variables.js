@@ -9,3 +9,8 @@ multiples lineas
 // iniciar una variables (var, let, const) 
 
 let comision = "c74i"
+
+// mostrar mensaje
+console.log(7+8);
+console.log(comision)
+console.log("comision: " + comision)
