@@ -30,5 +30,13 @@ document.write("Hello world <br> soy batman")
 
 // solicitar un color al usuario 
 let color = prompt("Ingrese su color favorito");
-// sirve tambien para verificar si se guardo el dato en la variable
+// sirve tambien para verificar si se guardo el dato en la variable.
+console.log(color)
+// modificamos el contenido de la variable.
+color = "Rojo";
 console.log(color);
+
+let numeroSeleccionado = parseInt(prompt('Ingrese un numero entre 1 y 50'));
+console.log(numeroSeleccionado+30);
+// parseInt("30")
+// parseFloat("30.4")
